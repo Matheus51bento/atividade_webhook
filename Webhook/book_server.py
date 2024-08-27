@@ -55,4 +55,4 @@ def run(server_class=HTTPServer, handler_class=BookServerHandler, port=5000):
     httpd.serve_forever()
 
 if __name__ == "__main__":
-    run()
+    run(port=5001)
